@@ -1,5 +1,4 @@
 //Assets
-import { useEffect, useRef } from "react";
 import asset3 from "../../assets/home/example.svg";
 import Carousel from "./Carousel";
 

@@ -22,7 +22,7 @@ function HomePage() {
     return context;
   };
 
-  const { page, setPage } = usePage();
+  const { page } = usePage();
 
   // Window ref
   const mainWindow = useRef<null | HTMLDivElement>(null);
