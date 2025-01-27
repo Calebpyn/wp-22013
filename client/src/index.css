@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+  --color-maincolor-500: oklch(26.8% 0.0024 247.91);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter-Italic-VariableFont_opsz,wght.ttf")
+      format("ttf"),
+    url("../public/fonts/Inter-VariableFont_opsz,wght.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tr {
+  transition: all ease 0.3s;
+}
+
+.tr-2 {
+  transition: all ease 0.8s;
+}
