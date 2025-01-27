@@ -16,7 +16,7 @@ function HomePageBg() {
     return context;
   };
 
-  const { page, setPage } = usePage();
+  const { page } = usePage();
 
   return (
     <div

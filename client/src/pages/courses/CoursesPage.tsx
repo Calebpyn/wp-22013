@@ -1,4 +1,3 @@
-import React from "react";
 import CourseCard from "../../components/courses/CourseCard";
 
 function CoursesPage() {
